@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+/* Resetting the document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+  background: linear-gradient(90deg, rgb(58, 180, 105) 0%,
+                                     rgba(29, 253, 197, 0.89) 50%, 
+                                     rgb(56, 163, 235) 100%);
+  padding: 30px 40px;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Acme', sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 15px;;
+}
+
+.app {
+  width: 100%;
+  margin-right: 0;
+  position: relative;
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  background: #d9d9d9;
+  color: #555;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.todo {
+  position: relative;
+  text-align: center;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 14px;
+  transition: 0.2s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
